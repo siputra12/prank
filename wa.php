@@ -1,6 +1,6 @@
 <?php
 // Copyright: W
-echo "Nomor Target?\nInput : ";
+echo "Nomor Target? (jika jumlah nmr cuma 11 pake 62)\nInput : ";
 $nomer = trim(fgets(STDIN));
 echo "Jumlah?\nInput : ";
 $jumlah = trim(fgets(STDIN));
