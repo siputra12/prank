@@ -1,5 +1,5 @@
 <?php
-// My FB : Manggala Febri Valentino
+// Copyright : W
 function send($phone){
 	$config['headers'] = explode("\n",'Host: www.airbnb.co.id
 Connection: keep-alive
