@@ -1,7 +1,15 @@
 <?php
 // Copyright: W
-echo "Nomor Target? (jika jumlah nmr cuma 11 pake 62)\nInput : ";
+echo "Nomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
+if(strlen($nomer)==11){
+	$nomer = str_replace("0","62".$nomer);
+}elseif(strlen($nomer)>12){
+	$nomer = str_replace("62","0",$nomer);
+}
+echo "Target: $nomer (y/n)";
+$cek = trim(fgets(STDIN));
+if($cek=="n") exit("Stopped!\n");
 echo "Jumlah?\nInput : ";
 $jumlah = trim(fgets(STDIN));
 for($a=0;$a<$jumlah;$a++) {
