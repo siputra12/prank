@@ -11,7 +11,7 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
-echo "COPYRIGHT ; SGBTEAM\n\n";
+echo "COPYRIGHT ; boe L oes\n\n";
 echo "Nomor\nInput : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
