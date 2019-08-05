@@ -13,7 +13,7 @@ function send($phone){
 }
 echo "COPYRIGHT ; SGBTEAM\n\n";
 echo "Nomor\nInput : ";
-$nomor = trim(fgets(STDIN));
+$nomber = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
 ?>
