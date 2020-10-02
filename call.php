@@ -1,5 +1,5 @@
 <?php
-// Limit 3kali Telpon Setiap Satu Nomor
+// Limit 3x Telepon Setiap Satu Nomor
 function send($phone){
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, "https://www.tokocash.com/oauth/otp");                      curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
